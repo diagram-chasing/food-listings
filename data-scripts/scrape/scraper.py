@@ -86,7 +86,7 @@ def extract_menu_data(url: str) -> pd.DataFrame:
     preloaded_state = json.loads(json.loads(json_str))
     
     # Get restaurant data
-    restaurant_data = preloaded_state['pages']['current']['restaurant']
+    restaurant_data = preloaded_state['pages']['restaurant']
     restaurant_id = list(restaurant_data.keys())[0]
     menu_data = restaurant_data[restaurant_id]['order']['menuList']['menus']
     
