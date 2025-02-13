@@ -13,13 +13,13 @@ A Python script that extracts and processes restaurant menu data from Zomato.
 ## Example Usage
 
 ```bash
-python data-scripts/scrape/scraper.py https://www.zomato.com/bangalore/watsons-ulsoor/order trial.csv
+python data-scripts/scrape/scraper.py https://www.zomato.com/bangalore/watsons-ulsoor/order watsons.csv
 ```
 
 ## Sample Summary Statistics
 
 ```bash
-Processed menu data saved to trial.csv
+Processed menu data saved to watsons.csv
 
 Menu Summary:
 Total items: 103
